@@ -1,6 +1,6 @@
 #  Module 2 Install Apache Spark and Apache Hadoop
 
-There are many ways to install hadoop with spark on cluster, we chose to install spark in docker cluster.
+There are many ways to install hadoop and spark on cluster, we chose to install spark in docker cluster.
 
 ## what is docker ?
 
@@ -413,7 +413,7 @@ hdfs dfs -ls /home/input
 # open host terminal
 # copy Wordcount.java to /home/
 
-docker cp WordCount.java namenode:/home/WordCount.java
+cd
 
 # open namenode cli
 # go to /home directory

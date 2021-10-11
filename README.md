@@ -10,18 +10,26 @@ for more details see [module 1](module_1.md)
 
 for more details see [module 2](module_2.md)
 
-## Module 3 BigData eco-system Hadoop
+## Module 3 Hadoop architecture
 
 for more details see [module 3](module_3.md)
 
-## Module 4 Apache Spark 
+## Module 4 Spark architecture
 
 for more details see [module 4](module_4.md)
 
-## Module 5 MapReduce, HDFS and YARN
+## Module 5 BigData eco-system Hadoop
 
 for more details see [module 5](module_5.md)
 
-## Module 6 Conclution
+## Module 6 MapReduce, HDFS and YARN
 
 for more details see [module 6](module_6.md)
+
+## Module 7 Apache Spark 
+
+for more details see [module 7](module_7.md)
+
+## Module 8 Conclution
+
+for more details see [module 8](module_8.md)
