@@ -14,7 +14,7 @@ A Hadoop cluster consists of a single master and multiple slave nodes. The maste
 
 
 
-![hadoop-architecture](hadoop-architecture.png)
+![hadoop-architecture](img/hadoop-architecture.png)
 
 ## Hadoop Distributed File System (HDFS)
 
@@ -44,7 +44,7 @@ The fundamental idea of YARN is to split up the functionalities of resource mana
 
 The ResourceManager and the NodeManager form the data-computation framework. The ResourceManager is the ultimate authority that arbitrates resources among all the applications in the system. The NodeManager is the per-machine framework agent who is responsible for containers, monitoring their resource usage (cpu, memory, disk, network) and reporting the same to the ResourceManager/Scheduler.
 
-![yarn architechiture](yarn_architecture.gif)
+![yarn architechiture](img/yarn_architecture.gif)
 
 The per-application ApplicationMaster is, in effect, a framework specific library and is tasked with negotiating resources from the ResourceManager and working with the NodeManager(s) to execute and monitor the tasks.
 
@@ -57,7 +57,7 @@ The ApplicationsManager is responsible for accepting job-submissions, negotiatin
 
 In order to scale YARN beyond few thousands nodes, YARN supports the notion of Federation via the YARN Federation feature. Federation allows to transparently wire together multiple yarn (sub-)clusters, and make them appear as a single massive cluster.
 
-![federation architecture](federation_architecture.png)
+![federation architecture](img/federation_architecture.png)
 
 OSS YARN has been known to scale up to about few thousand nodes. The proposed architecture leverages the notion of federating a number of such smaller YARN clusters, referred to as sub-clusters, into a larger federated YARN cluster comprising of tens of thousands of nodes. The applications running in this federated environment see a unified large YARN cluster and will be able to schedule tasks on any nodes in the cluster. Under the hood, the federation system will negotiate with sub-clusters RMs and provide resources to the application. The logical architecture in Figure 1 shows the main components that comprise the federated cluster, which are described below.
 

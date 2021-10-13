@@ -205,7 +205,7 @@ First we need to copy our python script to docker image master with :
 docker cp pi.py bigdata_courses_spark_1:/home/pi.py
 ```
 
-![docker_home](docker_home.png)
+![docker_home](img/docker_home.png)
 
 Then enter to master Container and run the 'pi.py' script with:
 
@@ -234,7 +234,6 @@ docker-compose up
 ### Create our first MapReduce app (wordcount)
 
 ``` java
-
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -419,11 +418,9 @@ cd
 # go to /home directory
 cd /home
 
-# export openjdk
-export HADOOP_CLASSPATH=/usr/lib/jvm/java-8-openjdk-amd64/lib/tools.jar
 
 # compile WordCount.java
-hadoop com.sun.tools.javac.Main WordCount.java
+/
 
 # show files
 

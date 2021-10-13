@@ -8,7 +8,7 @@ Bigdata can neither be worked upon by using traditional SQL nor can the relation
 
 ## Why use BigData
 
-The need of big data comes from the Big Companies like (GAFAM) ![GAFAM](gafam.png)
+The need of big data comes from the Big Companies like (GAFAM) ![GAFAM](img/gafam.png)
 
 For the purpose of analysis of big amount of data which is in unstructured form. Such type of data is very difficult to process that contains the billions records of millions people information that includes images, audio and text.
 
