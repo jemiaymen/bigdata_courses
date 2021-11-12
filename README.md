@@ -18,7 +18,7 @@ for more details see [module 3](module_3.md)
 
 for more details see [module 4](module_4.md)
 
-## Module 5 BigData eco-system Hadoop
+## Module 5 Hadoop eco-system
 
 for more details see [module 5](module_5.md)
 
