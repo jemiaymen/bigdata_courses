@@ -22,11 +22,11 @@ for more details see [module 4](module_4.md)
 
 for more details see [module 5](module_5.md)
 
-## Module 6 MapReduce, HDFS and YARN
+## Module 6 HDFS 
 
 for more details see [module 6](module_6.md)
 
-## Module 7 Apache Spark 
+## Module 7 Spark SQL
 
 for more details see [module 7](module_7.md)
 
